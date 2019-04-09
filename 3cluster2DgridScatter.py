@@ -1,3 +1,6 @@
+import numpy as np
+import matplotlib.pyplot as plt
+
 # Create the data:
 D = 2 # dimensionality of the input
 Nclass = 500
