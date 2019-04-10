@@ -30,6 +30,7 @@ def oneHotEncode(X,categoricalDataPosition, avoidDummyTrap=1):
 	
 	
 def featureScale(X_train, X_test, y_train):
+	# -1 < sample < 1
 	from sklearn.preprocessing import StandardScaler
 	sc_X = StandardScaler()
 	X_train = sc_X.fit_transform(X_train)
