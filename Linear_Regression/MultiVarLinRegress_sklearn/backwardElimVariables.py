@@ -41,6 +41,7 @@ regressor.fit(X_train, y_train)
 y_pred = regressor.predict(X_test)
 
 # Building the optimal model using Backward Elimination
+# Reminder: we are eliminating high P values (ex > 0.5). High P : low impact.
 import statsmodels.formula.api as sm
 X = np.append(arr = np.ones((50, 1)).astype(int), values = X, axis = 1)
 X_opt = X[:, [0, 1, 2, 3, 4, 5]]
