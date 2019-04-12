@@ -1,6 +1,6 @@
 # MachineLearning_Tools
 
-Whenever a learn or generalize a tool I will add it here. 
+I will add it here the generalized tools I learn or develop. 
 Please feel free to use any code and contact me if you need assist.
 
 <br>
