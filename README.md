@@ -1,7 +1,10 @@
-# MachineLearning_Tools
+# Used libraries:
+- sklearn
+- keras
+- pandas
+- numpy
+- matplotlib
 
-I will add it here the generalized tools I learn or develop. 
-Please feel free to use any code and contact me if you need assist.
 
 <br>
 <br>
